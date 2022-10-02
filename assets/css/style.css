@@ -38,6 +38,12 @@ html {
     color: #f5f5f5;
 }
 
+.nav-black {
+    background-color: #17a2b8;
+    opacity: 0.9;
+    color: #f5f5f5;
+  }
+
 /* Quienes Somos */
 
 .text-icon {
@@ -60,4 +66,29 @@ html {
 .card-title {
     font-weight: 700;
     font-size: 1.5rem;
+    cursor: pointer;
 }
+
+/*Footer*/
+
+.footer-text {
+    font-weight: 700;
+    font-size: 50px;
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    text-shadow: 2px 2px 3px #f5f5f5;
+    color: #f5f5f5;
+}
+
+.footer-wrap {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .iconos-footer {
+    margin-top: 20px;
+  }
+
+  .fa-brands {
+    color: white;
+  }
